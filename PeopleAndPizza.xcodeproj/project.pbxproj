@@ -15,6 +15,7 @@
 		6E5562771E01E3B2000BABAE /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5562761E01E3B2000BABAE /* Tiger.swift */; };
 		6E5562791E01E43D000BABAE /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5562781E01E43D000BABAE /* Coordinate.swift */; };
 		6E55627B1E01E695000BABAE /* PizzaDeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E55627A1E01E695000BABAE /* PizzaDeliveryService.swift */; };
+		6E55627D1E01E84A000BABAE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E55627C1E01E84A000BABAE /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6E5562761E01E3B2000BABAE /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 		6E5562781E01E43D000BABAE /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		6E55627A1E01E695000BABAE /* PizzaDeliveryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDeliveryService.swift; sourceTree = "<group>"; };
+		6E55627C1E01E84A000BABAE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				6E5562761E01E3B2000BABAE /* Tiger.swift */,
 				6E5562781E01E43D000BABAE /* Coordinate.swift */,
 				6E55627A1E01E695000BABAE /* PizzaDeliveryService.swift */,
+				6E55627C1E01E84A000BABAE /* Person.swift */,
 				5B077DDD1D9C519B003DCE37 /* Main.storyboard */,
 				5B077DE01D9C519B003DCE37 /* Assets.xcassets */,
 				5B077DE21D9C519B003DCE37 /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E55627D1E01E84A000BABAE /* Person.swift in Sources */,
 				5B077DDC1D9C519B003DCE37 /* ViewController.swift in Sources */,
 				6E5562771E01E3B2000BABAE /* Tiger.swift in Sources */,
 				5B077DDA1D9C519B003DCE37 /* AppDelegate.swift in Sources */,
