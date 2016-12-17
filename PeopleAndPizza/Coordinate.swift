@@ -23,8 +23,14 @@ class Coordinate {
         self.longitude = longitude
     }
     
-    func distanceTo(coordinate: Coordinate) -> Double {
-//        acos(sin(latitude1) * sin(latitude2) + cos(latitude1) * cos(latitude2) * cos(longitude1-longitude2)) * 6371000 / 1000
-        return acos(sin(latitude) * sin(latitude) + cos(latitude) * cos(latitude) * cos(longitude-longitude)) * 6371000 / 1000
+    func distanceTo(to coordinate: Coordinate) -> Double {
+
+        return acos(sin(self.latitude.radians) * sin(coordinate.latitude.radians) + cos(self.latitude.radians) * cos(coordinate.latitude.radians) * cos(self.longitude.radians - coordinate.longitude.radians)) * 6371000 / 1000
+    }
+}
+
+extension Double {
+    var radians: Double {
+        return self * M_PI / 180
     }
 }

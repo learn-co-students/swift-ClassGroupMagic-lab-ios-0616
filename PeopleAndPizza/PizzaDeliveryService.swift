@@ -19,7 +19,7 @@ class PizzaDeliveryService {
     }
     
     func isInRange(destination: Coordinate) -> Bool {
-        if location.distanceTo(coordinate: destination) <= 5000 {
+        if location.distanceTo(to: destination) <= 5000 {
             return true
         }
         return false
